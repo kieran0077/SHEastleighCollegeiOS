@@ -1,0 +1,26 @@
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\Bin\Debug\ApplicationIcon.png
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\Bin\Debug\Background.png
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\Bin\Debug\slides-2.png
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\Bin\Debug\studentguideapp.dll
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\Bin\Debug\studentguideapp.pdb
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\Bin\Debug\AppManifest.xaml
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\Bin\Debug\studentguideapp.xap
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\obj\Debug\App.g.cs
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\obj\Debug\Settings.g.cs
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\obj\Debug\infopage.g.cs
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\obj\Debug\MainPage.g.cs
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\obj\Debug\studentguideapp.g.resources
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\obj\Debug\studentguideapp.dll
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\obj\Debug\studentguideapp.pdb
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\obj\Debug\XapCacheFile.xml
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\obj\Debug\studentguideapp.csprojResolveAssemblyReference.cache
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\obj\Debug\bullyingPage.g.cs
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\obj\Debug\bullyingInfoPage.g.cs
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\Bin\Debug\To This Day (Against Bullying Poem) (Very Inspir_medium.mp4
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\Bin\Debug\slides2.png
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\Bin\Debug\slides3.png
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\Bin\Debug\speakup.jpg
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\Bin\Debug\speakup1.jpg
+C:\Users\Kieran\Desktop\Student Guide 2012-2013\studentguideapp\Bin\Debug\speakup2.jpg

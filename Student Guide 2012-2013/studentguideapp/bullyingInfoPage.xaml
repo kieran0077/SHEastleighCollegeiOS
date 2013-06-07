@@ -1,0 +1,180 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="studentguideapp.bullyingInfoPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Speak Up!" Foreground="#FF47A5D1" Width="479" Margin="0">
+        	<controls:Panorama.Background>
+        		<ImageBrush ImageSource="/speakup2.jpg"/>
+        	</controls:Panorama.Background>
+
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="What is it?">
+            	<Grid>
+            		<ScrollViewer HorizontalAlignment="Left" Height="426" VerticalAlignment="Top" Width="419">
+            			<TextBlock TextWrapping="Wrap" FontSize="26.667" Foreground="#FF47A5D1" Margin="30,0,0,0">
+            				<Span>
+            					<Run Text="People often disagree and sometimes argue - certainly nobody gets on with everyone all the time. But, bullying goes beyond this."/>
+            				</Span>
+            				<LineBreak/>
+            				<Span>
+            					<Run/>
+            				</Span>
+            				<LineBreak/>
+            				<Run Text="Bullying is when people are repeatedly picked on by others and end up feeling offended, uncomfortable or hurt."/>
+            				<LineBreak/>
+            				<Run/>
+            				<LineBreak/>
+            				<Run Text="This could be face-to-face, by text, email or social networks, "/>
+            				<Run Text="this "/>
+            				<Run Text="can"/>
+            				<Run Text=" "/>
+            				<Run Text="include:"/>
+            				<LineBreak/>
+            				<Run FontSize="25.333" Text="-Malicious gossip"/>
+            				<LineBreak/>
+            				<Run FontSize="25.333" Text="-Name calling"/>
+            				<LineBreak/>
+            				<Run FontSize="25.333" Text="-Suggestive, sexist and racist comments"/>
+            				<LineBreak/>
+            				<Run FontSize="25.333" Text="-Pictures, text messages and  Emails"/>
+            				<LineBreak/>
+            				<Run FontSize="25.333" Text="-Unwanted physical contact"/>
+            				<LineBreak/>
+            				<Run FontSize="25.333" Text="-Isolation or exclusion from activities"/>
+            			</TextBlock>
+            		</ScrollViewer>
+            	</Grid>
+            </controls:PanoramaItem>
+
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="How it feels?" Foreground="#FF47A5D1">
+                <Grid>
+                	<ScrollViewer HorizontalAlignment="Left" Height="426" VerticalAlignment="Top" Width="420">
+                		<TextBlock TextWrapping="Wrap" FontSize="26.667" Foreground="#FF47A5D1" Margin="30,0,0,0">
+                			<Span>
+                				<Run Text="Bullying has a different impact on different people, but it is always a negative feeling. It can include feeling:"/>
+                			</Span>
+                			<LineBreak/>
+                			<Span>
+                				<Run Text="    -Scared"/>
+                			</Span>
+                			<LineBreak/>
+                			<Span>
+                				<Run Text="    -Upset"/>
+                			</Span>
+                			<LineBreak/>
+                			<Span>
+                				<Run Text="    -Lonely"/>
+                			</Span>
+                			<LineBreak/>
+                			<Span>
+                				<Run Text="    -Like it is your fault"/>
+                			</Span>
+                			<LineBreak/>
+                			<Span>
+                				<Run Text="    -Afraid to go to college"/>
+                			</Span>
+                		</TextBlock>
+                	</ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="What to do?" Foreground="#FF47A5D1">
+            	<Grid>
+            		<ScrollViewer HorizontalAlignment="Left" Height="426" VerticalAlignment="Top" Width="420">
+            			<TextBlock TextWrapping="Wrap" FontSize="26.667" Foreground="#FF47A5D1" Margin="30,0,0,0">
+            				<Span>
+            					<Run Text="Think about the situation and discuss it with friends and family if you can. Ask yourself if it is just a falling out or if it is more serious?"/>
+            				</Span>
+            				<LineBreak/>
+            				<Run Text=" "/>
+            				<Run/>
+            				<LineBreak/>
+            				<Run Text="Then, if you still feel like you are being bullied:"/>
+            				<LineBreak/>
+            				<Run/>
+            				<LineBreak/>
+            				<Run Text=" You could chose to talk to the person who is harassing you and ask them to stop, if you feel confident to do so."/>
+            				<LineBreak/>
+            				<Span>
+            					<Run/>
+            				</Span>
+            				<LineBreak/>
+            				<Run Text=" Talk to your tutor or another member of staff(lecturer, LSA, counselor)"/>
+            				<LineBreak/>
+            				<Run/>
+            				<LineBreak/>
+            				<Run Text="Using the 'Speak up' service..."/>
+            				<LineBreak/>
+            				<Run Text="-The anti-bullying websites or help lines for more information or advice - see the list further on for more information."/>
+            				<LineBreak/>
+            				<Run/>
+            				<LineBreak/>
+            				<Run Text="Don't fight back - This will not solve the problem and could mean that you end up in trouble yourself."/>
+            				<LineBreak/>
+            				<Run Text=" "/>
+            				<Run Text=" "/>
+            				<Run Text=""/>
+            				<LineBreak/>
+            				<Run Text="Keep a note of any incidents, including when they happened, where, who was there, what happened and how you felt."/>
+            				<LineBreak/>
+            				<Run/>
+            				<LineBreak/>
+            				<Run Text="Keep any text messages, emails or printouts of chat room messages if they are part of the harassment"/>
+            				<Run Text="."/>
+            			</TextBlock>
+            		</ScrollViewer>
+            	</Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="What do bullies look like" Foreground="#FF47A5D1">
+            	<Grid>
+            		<ScrollViewer HorizontalAlignment="Left" Height="426" VerticalAlignment="Top" Width="420">
+            			<TextBlock TextWrapping="Wrap" FontSize="26.667" Foreground="#FF47A5D1" Margin="30,0,0,0">
+            				<Run Text="What do bullies look like, t"/>
+            				<Run Text="here's no easy answer:"/>
+            				<LineBreak/>
+            				<Run Text="Some bullies"/>
+            				<Run Text=" "/>
+            				<Run Text="can be loud and aggressive - they might enjoy showing off to their mates by teasing people."/>
+            				<LineBreak/>
+            				<Run/>
+            				<LineBreak/>
+            				<Run Text="Others might be quiet and sneaky - they might like to start nasty rumors about others just to see what happens."/>
+            				<LineBreak/>
+            				<Run/>
+            				<LineBreak/>
+            				<Run Text="Most bullies put other people down to make themselves feel more interesting or powerful. For them, it may be hard to see things from someone else's point of view."/>
+            				<LineBreak/>
+            				<Run Text="    "/>
+            				<LineBreak/>
+            				<Run Text="They might act the way they do because they've been hurt or abused by bullies in the past, and that becomes a habit."/>
+            				<LineBreak/>
+            				<Run Text="    "/>
+            				<LineBreak/>
+            				<Run Text="If you think you may be a bully you can also receive support through the 'Speak Up' service."/>
+            				<LineBreak/>
+            				<Run Text="By using the 'Speak Up' service, you can help break that habit"/>
+            				<Run Text="!"/>
+            			</TextBlock>
+            		</ScrollViewer>
+            	</Grid>
+            </controls:PanoramaItem>
+
+            <!--Panorama item two-->
+        </controls:Panorama>
+    </Grid>
+
+</phone:PhoneApplicationPage>

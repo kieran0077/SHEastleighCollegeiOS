@@ -1,0 +1,44 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="studentguideapp.infopage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True" Loaded="PhoneApplicationPage_Loaded_1">
+	<phone:PhoneApplicationPage.Background>
+		<ImageBrush Stretch="Fill"/>
+	</phone:PhoneApplicationPage.Background>
+	<Grid Margin="0">
+		<Grid.Background>
+			<ImageBrush ImageSource="/Light/NewInfoBackground.png" Stretch="None"/>
+		</Grid.Background>
+    
+		<TextBlock x:Name="tittleName" TextWrapping="Wrap" Margin="20,0" Foreground="#FF44B1D1" FontSize="48" Canvas.ZIndex="1" VerticalAlignment="Top" />
+		<StackPanel Margin="20,250,20,0">
+			<!--<TextBlock x:Name="contactInfo" TextWrapping="Wrap" Margin="20,0,20,10" Tap="contactInfo_Tap" FontSize="33.333"/>-->
+    
+			<ScrollViewer>
+				<TextBlock x:Name="infoBox" TextWrapping="Wrap" Foreground="#FF44B1D1" Width="440" FontSize="29.333"/>
+			</ScrollViewer>
+    
+		</StackPanel>
+    
+	</Grid>
+    
+    <!--Sample code showing usage of ApplicationBar-->
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True" BackgroundColor="#FF47A5D1">
+            <shell:ApplicationBarIconButton x:Name="callAppBarButon"  IconUri="/Dark/feature.phone.png" Text="Call" Click="callAppBarButon_Click" />
+            <shell:ApplicationBarIconButton x:Name="emailAppbarButton" IconUri="/Dark/feature.email.png" Text="Email" Click="emailAppbarButton_Click" />
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+    <!--LayoutRoot is the root grid where all page content is placed-->
+
+</phone:PhoneApplicationPage>

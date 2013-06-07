@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{021238F6-EE2A-42AC-A74E-5654FB344DEC}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>studentguideapp</RootNamespace>
+    <AssemblyName>studentguideapp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>studentguideapp.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>studentguideapp.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <ExpressionBlendVersion>5.0.31017.0</ExpressionBlendVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone" />
+    <Reference Include="Microsoft.Phone.Controls" />
+    <Reference Include="Microsoft.Phone.Interop" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Xml" />
+    <Reference Include="mscorlib.extensions" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="bullyingInfoPage.xaml.cs">
+      <DependentUpon>bullyingInfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="bullyingPage.xaml.cs">
+      <DependentUpon>bullyingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controller.cs" />
+    <Compile Include="Settings.xaml.cs">
+      <DependentUpon>Settings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="infopage.xaml.cs">
+      <DependentUpon>infopage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StudentGuideModel.cs" />
+    <Compile Include="ViewModels\ItemViewModel.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="bullyingInfoPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="bullyingPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Settings.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="infopage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <DesignData Include="SampleData\MainViewModelSampleData.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </DesignData>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Light\NewInfoBackground.png" />
+    <Content Include="To This Day %28Against Bullying Poem%29 %28Very Inspir_medium.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="infoBackgroundredo.png" />
+    <Resource Include="PanoramaBackground.png" />
+    <Content Include="Dark\add.png" />
+    <Content Include="Dark\back.png" />
+    <Content Include="Dark\basecircle.png" />
+    <Content Include="Dark\cancel.png" />
+    <Content Include="Dark\check.png" />
+    <Content Include="Dark\close.png" />
+    <Content Include="Dark\DarkIcons.dll" />
+    <Content Include="Dark\delete.png" />
+    <Content Include="Dark\download.png" />
+    <Content Include="Dark\edit.png" />
+    <Content Include="Dark\favs.addto.png" />
+    <Content Include="Dark\favs.png" />
+    <Content Include="Dark\feature.alarm.png" />
+    <Content Include="Dark\feature.calendar.png" />
+    <Content Include="Dark\feature.camera.png" />
+    <Content Include="Dark\feature.email.png" />
+    <Content Include="Dark\feature.phone.png" />
+    <Content Include="Dark\feature.search.png" />
+    <Content Include="Dark\feature.settings.png" />
+    <Content Include="Dark\feature.video.png" />
+    <Content Include="Dark\folder.png" />
+    <Content Include="Dark\like.png" />
+    <Content Include="Dark\microphone.png" />
+    <Content Include="Dark\minus.png" />
+    <Content Include="Dark\new.png" />
+    <Content Include="Dark\next.png" />
+    <Content Include="Dark\overflowdots.png" />
+    <Content Include="Light\bell.png" />
+    <Content Include="Light\bellicon.png" />
+    <Content Include="Light\clockv2.png" />
+    <Content Include="Light\communicationblue.png" />
+    <Content Include="Light\foodImage.png" />
+    <Content Include="Light\helpicon.png" />
+    <Content Include="Light\info.png" />
+    <Content Include="Light\peopleblue.png" />
+    <Content Include="Light\peoplered.png" />
+    <Content Include="Light\phonemail.png" />
+    <Content Include="Dark\questionmark.png" />
+    <Content Include="Dark\refresh.png" />
+    <Content Include="Dark\save.png" />
+    <Content Include="Dark\saveme.png" />
+    <Content Include="Dark\savemered.png" />
+    <Content Include="Dark\settings.png" />
+    <Content Include="Dark\share.png" />
+    <Content Include="Dark\stop.png" />
+    <Content Include="Dark\sync.png" />
+    <Content Include="Dark\text.png" />
+    <Content Include="Dark\transport.ff.png" />
+    <Content Include="Dark\transport.pause.png" />
+    <Content Include="Dark\transport.play.png" />
+    <Content Include="Dark\transport.rew.png" />
+    <Content Include="Dark\upload.png" />
+    <Content Include="Data\Data.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Dark\phone.png" />
+    <Content Include="Light\add.png" />
+    <Content Include="Light\back.png" />
+    <Content Include="Light\basecircle.png" />
+    <Content Include="Light\cancel.png" />
+    <Content Include="Light\check.png" />
+    <Content Include="Light\close.png" />
+    <Content Include="Light\delete.png" />
+    <Content Include="Light\download.png" />
+    <Content Include="Light\edit.png" />
+    <Content Include="Light\favs.addto.png" />
+    <Content Include="Light\favs.png" />
+    <Content Include="Light\feature.alarm.png" />
+    <Content Include="Light\feature.calendar.png" />
+    <Content Include="Light\feature.camera.png" />
+    <Content Include="Light\feature.email.png" />
+    <Content Include="Light\feature.phone.png" />
+    <Content Include="Light\feature.search.png" />
+    <Content Include="Light\feature.settings.png" />
+    <Content Include="Light\feature.video.png" />
+    <Content Include="Light\folder.png" />
+    <Content Include="Light\infoIcon.jpg" />
+    <Content Include="Light\LightIcons.dll" />
+    <Content Include="Light\like.png" />
+    <Content Include="Light\microphone.png" />
+    <Content Include="Light\minus.png" />
+    <Content Include="Light\new.png" />
+    <Content Include="Light\next.png" />
+    <Content Include="Light\overflowdots.png" />
+    <Content Include="Light\questionmark.png" />
+    <Content Include="Light\refresh.png" />
+    <Content Include="Light\save.png" />
+    <Content Include="Light\share.png" />
+    <Content Include="Light\sick.png" />
+    <Content Include="Light\slides-2.png" />
+    <Content Include="Light\stop.png" />
+    <Content Include="Light\sync.png" />
+    <Content Include="Light\transport.ff.png" />
+    <Content Include="Light\transport.pause.png" />
+    <Content Include="Light\transport.play.png" />
+    <Content Include="Light\transport.rew.png" />
+    <Content Include="Light\upload.png" />
+    <Content Include="slides-2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="slides2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="slides3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="speakup.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="speakup1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="speakup2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SplashScreenImage.jpg" />
+    <Resource Include="slides-2.jpg" />
+    <Resource Include="slides-2.redoV2.jpg" />
+    <Resource Include="slides.png" />
+    <Resource Include="slides1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>
