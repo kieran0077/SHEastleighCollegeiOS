@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AllData>
+  <item>
+    <Title>Counselling service.</Title>
+    <Description>Eastleigh College offers a counselling service for students. For avalibility - </Description>
+    <Phone>02380911127</Phone>
+    <Address></Address>
+    <Email>lpassel-syms@eastleigh.ac.uk</Email>
+    <Category>Contacts</Category>
+    <SmallInfo>Counselling for students.</SmallInfo>
+    <Image>Counselling</Image>
+  </item>
+  <item>
+    <Title>Listening/chaplaincy service</Title>
+    <Description>every week 12-2pm in the learning centre with chris walker, youth pastor</Description>
+    <Phone></Phone>
+    <Address></Address>
+    <Email></Email>
+    <Category>Contacts</Category>
+    <SmallInfo>Listening services for students.</SmallInfo>
+    <Image>Counselling</Image>
+  </item>
+  <item>
+    <Title>Sexual Health Clinic</Title>
+    <Description>Sexual health clinic. Every Monday in C012(first aid room)</Description>
+    <Phone>02380901236</Phone>
+    <Address></Address>
+    <Email>sexualhealthclinic@eastleigh.ac.uk</Email>
+    <Category>Contacts</Category>
+    <SmallInfo>Sexual Health Information for Students.</SmallInfo>
+    <Image>Contacts</Image>
+  </item>
+  <item>
+    <Title>Support for learning</Title>
+    <Description>If you need support to achieve your qualification, contact student support services: We may be able to provide: support with your learning. Financial cost of college. Counselling. Support with personal matters(e.g. home, relationships,progression,health, etc).</Description>
+    <Phone></Phone>
+    <Address></Address>
+    <Email></Email>
+    <Category>Contacts</Category>
+    <SmallInfo>Support for Students.</SmallInfo>
+    <Image>Contacts</Image>
+  </item>
+	<item>
+		<Title>Attendance</Title>
+		<Description>You are expected to attend 100% of your classes. If you are unable to attend College please contact your tutor.</Description>
+		<Phone></Phone>
+		<Address></Address>
+		<Email></Email>
+    <Category>Information</Category>
+    <SmallInfo>The Eastleigh College attendance guidelines.</SmallInfo>
+    <Image>Information</Image>
+	</item>
+	<item>
+		<Title>Code Of Conduct</Title>
+		<Description>We expect you to: Show Respect for others. Attend all classes and be punctual. Observe health and safety procedures. Comply with College policies. Copies of all policies and procedures can be found on the intranet</Description>
+		<Phone></Phone>
+		<Address></Address>
+		<Email></Email>
+    <Category>Information</Category>
+    <SmallInfo>What we expect from everyone at Eastleigh College.</SmallInfo>
+    <Image>Information</Image>
+	</item>
+	<item>
+		<Title>Safeguarding</Title>
+		<Description>The college works hard to ensure all students feel, and are, safe. If you have any issues, talk to your tutor or any member of staff (all staff wear light blue lanyards and have ID badges). The college has a safeguarding facilitator. Paul Adams</Description>
+		<Phone>02380911058</Phone>
+		<Address></Address>
+		<Email>padams@eastleigh.ac.uk</Email>
+    <Category>Contacts</Category>
+    <SmallInfo>Saftey at Eastleigh College.</SmallInfo>
+    <Image>Information</Image>
+	</item>
+  <item>
+    <Title>Emergency closures</Title>
+    <Description>If there are unforeseen circumstances that may impact on College opening, such as heavy snow or a swine-flu outbreak locally, information about coming into College will be posted on the College webstie: www.eastleigh.ac.uk In addition, messages will  be placed on local radio stations, such as Radio Solent (96.1/103.8 FM) and Heart FM on 96.7/97.5 FM.</Description>
+    <Phone></Phone>
+    <Address></Address>
+    <Email></Email>
+    <Category>Information</Category>
+    <SmallInfo>Information on college closures.</SmallInfo>
+    <Image>Information</Image>
+  </item>
+  <item>
+    <Title>Learning Centre</Title>
+    <Description>Mon-Thurs 0830-1900 Fri 8030-1630</Description>
+    <Phone>02380911026</Phone>
+    <Address></Address>
+    <Email>lc@eastleigh.ac.uk</Email>
+    <Category>Facilities</Category>
+    <SmallInfo>Information on the Learning Center.</SmallInfo>
+    <Image>Facilities</Image>
+  </item>
+  <item>
+    <Title>Reception and Cash Office (term time)</Title>
+    <Description>Mon-Thurs 0830-2000 Fri 8030-1630</Description>
+    <Phone>02380911000</Phone>
+    <Address></Address>
+    <Email>reception@eastleigh.ac.uk</Email>
+    <Category>Facilities</Category>
+    <SmallInfo>Information on the college services.</SmallInfo>
+    <Image>Facilities</Image>
+  </item>
+  <item>
+    <Title>Refectory (term time)</Title>
+    <Description>Mon-Fri 0815-1400</Description>
+    <Phone>02380911046</Phone>
+    <Address></Address>
+    <Email></Email>
+    <Category>Facilities</Category>
+    <SmallInfo>Information on the Refectory.</SmallInfo>
+    <Image>Food</Image>
+  </item>
+  <item>
+    <Title>Coffee Shop</Title>
+    <Description>Mon-Thurs 0830-2030 Fri 0830-1500</Description>
+    <Phone></Phone>
+    <Address></Address>
+    <Email></Email>
+    <Category>Facilities</Category>
+    <SmallInfo>Information on the college coffee shop.</SmallInfo>
+    <Image>Food</Image>
+  </item>
+  <item>
+    <Title>Desborough Coffee Shop (term time)</Title>
+    <Description>Mon-Thurs 1000-1500</Description>
+    <Phone>02380911140</Phone>
+    <Address></Address>
+    <Email></Email>
+    <Category>Facilities</Category>
+    <SmallInfo>Information on the Desbrough Coffee Shop.</SmallInfo>
+    <Image>Food</Image>
+  </item>
+  <item>
+    <Title>Fitness Studio</Title>
+    <Description>Call for more information</Description>
+    <Phone>02380911067</Phone>
+    <Address></Address>
+    <Email></Email>
+    <Category>Facilities</Category>
+    <SmallInfo>Information on the college fitness facilities.</SmallInfo>
+    <Image>Facilities</Image>
+  </item>
+  <item>
+    <Title>Essence Beauty Salon</Title>
+    <Description>Mon-Fri 0900-1700 (plus selected evenings)</Description>
+    <Phone>02380911028</Phone>
+    <Address></Address>
+    <Email>essence@eastleigh.ac.uk</Email>
+    <Category>Facilities</Category>
+    <SmallInfo>Information on the college beauty facilities.</SmallInfo>
+    <Image>Facilities</Image>
+  </item>
+  <item>
+    <Title>MOT Centre</Title>
+    <Description>Mon-Fri only.</Description>
+    <Phone>02380911075</Phone>
+    <Address></Address>
+    <Email></Email>
+    <Category>Facilities</Category>
+    <SmallInfo>Information on the college MOT facilities.</SmallInfo>
+    <Image>Facilities</Image>
+  </item>
+  <item>
+    <Title>Red Carpet Restaurant</Title>
+    <Description>Tues-Fri 1215-1430 Thurs and Fri Evenings 1845-2130</Description>
+    <Phone>02380911053</Phone>
+    <Address></Address>
+    <Email>resturant@eastleigh.ac.uk</Email>
+    <Category>Facilities</Category>
+    <SmallInfo>Information on the college resturant.</SmallInfo>
+    <Image>Food</Image>
+  </item>
+  <item>
+    <Title>Complaints</Title>
+    <Description>The College will respond promptly if you let us know when we do not meet your needs or keep our promises. In the first instance, you should discuss your concerns with your tutor. If this is not appropriate, you should write to - </Description>
+    <Phone></Phone>
+    <Address>Marketing Manager, Eastleigh College, Chesnut Avenue, Eastleigh, SO50 5FS</Address>
+    <Email></Email>
+    <Category>Information</Category>
+    <SmallInfo>Information on college complaints.</SmallInfo>
+    <Image>Information</Image>
+  </item>
+  <item>
+    <Title>Student Voice</Title>
+    <Description>Your views and opinions are very important to us! · Come along to the Stundent Council · Join the Student Executive · Become a Student Governor · Complete surveys · Use the "Have Your Say" form</Description>
+    <Phone></Phone>
+    <Address></Address>
+    <Email></Email>
+    <Category>Information</Category>
+    <SmallInfo>Student opinions on the college.</SmallInfo>
+    <Image>Information</Image>
+  </item>
+  <item>
+    <Title>What's Next?</Title>
+    <Description>The college offers information, advice and guidance on: · Careers · Employment · Apprenticeships · Futher training · Higher Education Drop in to the Student Services Centre for more information.</Description>
+    <Phone></Phone>
+    <Address></Address>
+    <Email></Email>
+    <Category>Information</Category>
+    <SmallInfo>Advice and guideance for the future.</SmallInfo>
+    <Image>Information</Image>
+  </item>
+  <item>
+    <Title>Engage Recruitment</Title>
+    <Description>This free service aims to provide all current students with the best possible progression opportunities. Our services include: · Assistance with CV writing and job searches · Assistance with applications and covering letters · Interview techniques and skills · Pre-interview preparation · Mock interviews t: or visit us in the Learning Centre!</Description>
+    <Phone>02380911246</Phone>
+    <Address></Address>
+    <Email></Email>
+    <Category>Contacts</Category>
+    <SmallInfo>Assistance with finding a career.</SmallInfo>
+    <Image>Contacts</Image>
+  </item>
+</AllData>
